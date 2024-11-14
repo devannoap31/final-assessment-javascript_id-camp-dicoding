@@ -38,3 +38,5 @@ console.log(inventory.listItems());
  * Inventory after removal:
  * ID: 1, Name: Laptop, Quantity: 8, Price: 950
  */
+
+// coba IDX
