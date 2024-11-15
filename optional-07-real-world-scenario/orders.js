@@ -30,7 +30,7 @@ function updateOrderStatus(orderId, status) {
 // TODO: selesaikan fungsi calculateTotalRevenue dari order yang berstatus Selesai
 function calculateTotalRevenue() {
   return orders;
-  .filter(order => order.status === 'Selesai')
+  filter(order => order.status === 'Selesai')
   .reduce((acc, order) => acc + order.totalPrice, 0);
 }
 
